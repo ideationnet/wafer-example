@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php-di/php-di": "^5.4",
+        "zendframework/zend-diactoros": "^1.3",
+        "ideationnet/stack-runner": "^2.0",
+        "middlewares/utils": "^0.8.0",
+        "ideationnet/wafer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaferExample\\": "src"
+        }
+    }
+}
