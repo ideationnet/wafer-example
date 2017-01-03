@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c0602ea145999ff5c722e53be4dd26d",
-    "content-hash": "4ab216361e41d752257027fece214b0f",
+    "hash": "f11f8a904171302231c92703b1d40c5a",
+    "content-hash": "40920a45d345bb67974a2a8ce1db0c5a",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -191,16 +191,16 @@
         },
         {
             "name": "ideationnet/wafer",
-            "version": "2.2.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ideationnet/wafer.git",
-                "reference": "57b6130f1be50076fc361e440e7b47fa35fc0f39"
+                "reference": "5e875cdee8db914ab599ad3845fa20f4597840eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ideationnet/wafer/zipball/57b6130f1be50076fc361e440e7b47fa35fc0f39",
-                "reference": "57b6130f1be50076fc361e440e7b47fa35fc0f39",
+                "url": "https://api.github.com/repos/ideationnet/wafer/zipball/5e875cdee8db914ab599ad3845fa20f4597840eb",
+                "reference": "5e875cdee8db914ab599ad3845fa20f4597840eb",
                 "shasum": ""
             },
             "require": {
@@ -211,11 +211,6 @@
                 "php-di/invoker": "^1.3"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "IdNet\\Wafer\\": "src"
@@ -239,7 +234,53 @@
                 "ideationnet",
                 "wafer"
             ],
-            "time": "2017-01-03 16:04:39"
+            "time": "2017-01-03 16:45:56"
+        },
+        {
+            "name": "middlewares/error-handler",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/middlewares/error-handler.git",
+                "reference": "02a7ef0d131629673be606ac5b2940b6f24efc58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/middlewares/error-handler/zipball/02a7ef0d131629673be606ac5b2940b6f24efc58",
+                "reference": "02a7ef0d131629673be606ac5b2940b6f24efc58",
+                "shasum": ""
+            },
+            "require": {
+                "http-interop/http-middleware": "^0.4",
+                "middlewares/utils": "~0.8",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^5.5",
+                "squizlabs/php_codesniffer": "^2.7",
+                "zendframework/zend-diactoros": "^1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Middlewares\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Middleware to handle http errors",
+            "homepage": "https://github.com/middlewares/error-handler",
+            "keywords": [
+                "http",
+                "middleware",
+                "psr-15",
+                "psr-7",
+                "server"
+            ],
+            "time": "2016-12-26 09:58:26"
         },
         {
             "name": "middlewares/utils",

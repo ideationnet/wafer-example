@@ -4,7 +4,8 @@
         "zendframework/zend-diactoros": "^1.3",
         "ideationnet/stack-runner": "^2.0",
         "middlewares/utils": "^0.8.0",
-        "ideationnet/wafer": "^2.2"
+        "ideationnet/wafer": "^3.0",
+        "middlewares/error-handler": "^0.4.0"
     },
     "autoload": {
         "psr-4": {

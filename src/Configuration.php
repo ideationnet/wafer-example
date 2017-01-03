@@ -7,10 +7,10 @@ use function DI\get;
 use function DI\object;
 use IdNet\StackRunner\StackRunner;
 use IdNet\Wafer\Action;
-use IdNet\Wafer\Handler\EchoDomainHandler;
 use IdNet\Wafer\Middleware\ActionDomainResponder;
 use Interop\Http\Factory\ResponseFactoryInterface;
 use Interop\Http\Factory\StreamFactoryInterface;
+use Middlewares\ErrorHandler;
 use Middlewares\Utils\ResponseFactory;
 use Middlewares\Utils\StreamFactory;
 
@@ -22,15 +22,19 @@ class Configuration
         return [
 
             'routes' => [
-                ['GET', '/', 'action.echo']
+                ['GET', '/', 'action.hello']
             ],
 
-            'action.echo' => object(Action::class)
-                ->method('domain', EchoDomainHandler::class),
+            'action.hello' => object(Action::class)
+                ->method('domain', HelloWorld::class),
 
             'middleware' => [
-                ActionDomainResponder::class
+                ErrorHandler::class,
+                ActionDomainResponder::class,
             ],
+
+            ErrorHandler::class => object()
+                ->method('catchExceptions', true),
 
             StackRunner::class => object()
                 ->constructorParameter('stack', get('middleware')),
