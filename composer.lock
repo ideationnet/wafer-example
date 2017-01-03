@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5cf18ac7cbfb7804a264bf80f573a005",
-    "content-hash": "2c3a010c22a1c25331279055e523f4cd",
+    "hash": "4c0602ea145999ff5c722e53be4dd26d",
+    "content-hash": "4ab216361e41d752257027fece214b0f",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -191,16 +191,16 @@
         },
         {
             "name": "ideationnet/wafer",
-            "version": "2.0.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ideationnet/wafer.git",
-                "reference": "16fe4373ce5f2044baa986d816be2c258566e733"
+                "reference": "57b6130f1be50076fc361e440e7b47fa35fc0f39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ideationnet/wafer/zipball/16fe4373ce5f2044baa986d816be2c258566e733",
-                "reference": "16fe4373ce5f2044baa986d816be2c258566e733",
+                "url": "https://api.github.com/repos/ideationnet/wafer/zipball/57b6130f1be50076fc361e440e7b47fa35fc0f39",
+                "reference": "57b6130f1be50076fc361e440e7b47fa35fc0f39",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -239,7 +239,7 @@
                 "ideationnet",
                 "wafer"
             ],
-            "time": "2016-12-23 10:02:08"
+            "time": "2017-01-03 16:04:39"
         },
         {
             "name": "middlewares/utils",
@@ -291,16 +291,16 @@
         },
         {
             "name": "nikic/fast-route",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af"
+                "reference": "f3dcf5130e634b6123d40727d612ec6aa4f61fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8ea928195fa9b907f0d6e48312d323c1a13cc2af",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/f3dcf5130e634b6123d40727d612ec6aa4f61fb3",
+                "reference": "f3dcf5130e634b6123d40727d612ec6aa4f61fb3",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +330,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2016-06-12 19:08:51"
+            "time": "2016-10-20 17:36:47"
         },
         {
             "name": "php-di/invoker",
